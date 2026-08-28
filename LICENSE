@@ -1,0 +1,70 @@
+Sleevenotes packs — licence
+===========================
+
+There are two layers here and they are not licensed alike. Read both, because
+the first one is more permissive than people expect and the second is narrower
+than it might look.
+
+
+1. The record data: public domain
+---------------------------------
+
+Every fact in these files — who played, on what instrument, on which release,
+under which label, on what date — comes from the Discogs monthly data dump,
+which Discogs publishes under the CC0 1.0 Universal Public Domain Dedication:
+
+    "This data is made available under the CC0 No Rights Reserved license"
+    https://data.discogs.com/
+
+CC0 puts the data in the public domain. It carries no attribution requirement
+and no conditions, and nothing in this file adds any. We could not restrict it
+if we wanted to, and we do not want to: the facts about who was in a room in
+1938 belong to everybody.
+
+So: take the personnel, take the dates, take the credits. You need no
+permission from us for any of it.
+
+
+2. The compilation: CC BY-SA 4.0
+--------------------------------
+
+What is ours is the layer on top of those facts, and it is a real layer:
+
+  * which records are in a pack and which are not — the scope of a subject,
+    and the era boundaries drawn around it;
+  * which pressing of a recording is the one shown, chosen once across every
+    pack so that two packs never disagree about the same tune;
+  * the arrangement: the card shape, the field set, the confidence tiers, the
+    pack plan and the manifest that describes it.
+
+That selection and arrangement is licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International licence:
+
+    https://creativecommons.org/licenses/by-sa/4.0/
+
+In short: use it, including commercially, provided you credit Sleevenotes and
+licence any work derived from the compilation under the same terms.
+
+This is deliberately a thin claim, and it is meant to be honest about how thin
+it is. It does not reach the underlying facts, which are CC0 and stay CC0. If
+you rebuild an equivalent corpus from the Discogs dump yourself, you owe us
+nothing at all.
+
+
+3. The software is not covered here
+-----------------------------------
+
+The Sleevenotes application and the ingest pipeline that produced these files
+are separate work, are not distributed in this branch, and are not licensed by
+this file.
+
+
+Attribution
+-----------
+
+    Sleevenotes packs — https://sleevenotes.ink
+    Compilation licensed CC BY-SA 4.0
+    Record data from Discogs, CC0
+
+See ATTRIBUTION.md for what is in these files, where each field came from, and
+what is deliberately not here.
